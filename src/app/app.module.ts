@@ -7,11 +7,13 @@ import { InputComponent } from './input/input.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { InputSecondComponent } from './input-second/input-second.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputComponent
+    InputComponent,
+    InputSecondComponent
   ],
   imports: [
     BrowserModule,
